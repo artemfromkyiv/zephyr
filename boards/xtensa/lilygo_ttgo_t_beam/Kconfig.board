@@ -1,0 +1,7 @@
+# Lilygo TTGo T beam board configuration
+
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_LILYGO_TTGO_T_BEAM
+	bool "LILYGO TTGO T-Beam Board"
+	depends on SOC_ESP32

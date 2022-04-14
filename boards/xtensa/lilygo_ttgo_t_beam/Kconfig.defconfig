@@ -1,0 +1,11 @@
+# LILYGO TTGO T BEAM board configuration
+
+config BOARD
+	default "lilygo_ttgo_t_beam"
+	depends on BOARD_LILYGO_TTGO_T_BEAM
+
+config ENTROPY_GENERATOR
+	default y
+
+config ENTROPY_ESP32_RNG
+	default y if ENTROPY_GENERATOR

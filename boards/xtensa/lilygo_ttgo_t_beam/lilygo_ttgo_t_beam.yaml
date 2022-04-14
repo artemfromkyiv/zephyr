@@ -1,0 +1,13 @@
+identifier: lilygo_ttgo_t_beam
+name: LILYGO TTGO T-Beam Board
+type: mcu
+arch: xtensa
+toolchain:
+  - espressif
+supported:
+  - gpio
+  - i2c
+  - watchdog
+  - uart
+  - pinmux
+  - nvs
